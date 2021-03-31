@@ -60,6 +60,7 @@ class MusicLibraryController
                 puts "#{index + 1}. " + string 
             end 
         end 
+    end 
           
         def list_songs_by_genre
             puts "Please enter the name of a genre:"
@@ -84,5 +85,5 @@ class MusicLibraryController
                 puts "Playing #{result.name} by #{result.artist.name}"
             end 
         end 
-    end 
+    
 end 
